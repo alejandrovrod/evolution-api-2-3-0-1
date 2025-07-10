@@ -5,7 +5,7 @@ RUN apk update && \
 
 WORKDIR /evolution
 
-COPY ./package.json ./tsconfig.json ./package-lock.json ./
+COPY ./package.json ./tsconfig.json ./
 COPY ./src ./src
 COPY ./public ./public
 COPY ./prisma ./prisma
